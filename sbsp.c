@@ -19,7 +19,8 @@ main (int argc, char *argv[]) {
             }    
             printf("%c", *curr);
         }
-        printf(" ");
+        if (i+1 < argc)
+            printf(" ");
     }
-    printf("\b\n");
+    printf("\n");
 }
